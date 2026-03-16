@@ -8,4 +8,8 @@ Problems: <https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/
 
     Run `docker compose build`, `docker compose up -d`, and `docker exec -it streaming-homework-redpanda-1 rpk version`.
 
-2. 
+2. It took 11.57 (&approx; 10) seconds to send the data.
+
+    Run `uv run python src/producer.py`.
+
+3. 
