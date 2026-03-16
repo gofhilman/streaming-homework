@@ -6,8 +6,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-import pandas as pd
-from kafka import KafkaProducer
+import pandas as pd # type: ignore
+from kafka import KafkaProducer # type: ignore
 from models import ride_from_row
 
 # Download NYC green taxi trip data
