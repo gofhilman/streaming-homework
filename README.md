@@ -12,7 +12,7 @@ Problems: <https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/
 
     Run `uv sync`, then `uv run python src/producer.py`.
 
-3. There are 8056 trips have a trip_distance greater than 5.0 kilometers.
+3. There are 8506 trips have a trip_distance greater than 5.0 kilometers.
 
     Always run `docker exec -it streaming-homework-redpanda-1 rpk topic delete green-trips` and `docker exec -it streaming-homework-redpanda-1 rpk topic create green-trips` between streaming. Then, run `uv run python src/producer.py` and `uv run python src/consumer.py`. Next, query in PostgreSQL:
 
